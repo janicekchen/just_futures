@@ -1,0 +1,26 @@
+{
+    "id": "6DE10107",
+    "path": "~/just_futures/just_futures/r_scripts/02_JF_PovertyLanguage.R",
+    "project_path": "r_scripts/02_JF_PovertyLanguage.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1634763716195.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "197,57",
+        "scrollLine": "166"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1634764073,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1634766793026,
+    "read_only": false,
+    "read_only_alternatives": []
+}
