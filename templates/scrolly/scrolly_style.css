@@ -1,0 +1,99 @@
+/* font faces */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+body {
+    background-color: #fcfcff;
+    margin: 0;
+}
+
+/* header panel, includes title and byline, and any header graphics */
+#header {
+    width: 100vw;
+    height: 50vh; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* div container for story text */
+.text {
+    width: 1000px; /* ADD MEDIA QUERY FOR SMALLER SCREENS */
+    margin: auto;
+}
+
+/* title of story*/
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    font-style: italic;
+    margin: 0;
+}
+
+/* byline */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* main body text */
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 1.5em;
+}
+
+/* SCROLLY STYLING */
+.scrollySection {
+    position: relative;
+    margin: 200px 0;
+}
+
+/*.container {
+	position:-webkit-sticky;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+    background-color: darkred;
+}*/
+
+.scrollyFigure {
+    position: -webkit-sticky;
+    position: sticky;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: lightgrey; /* DELETE THIS LINE  */
+}
+
+.srollyFigure * > {
+    position: absolute;
+}
+
+article {
+	position: relative;
+	margin: auto;
+	width: 80%;
+
+}
+
+.step {
+	margin: 0rem auto 1000px auto;
+	padding: 0rem;
+	background-color: white;
+    width: 650px;
+	opacity: 100%; 
+    padding: 40px;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+    opacity: 0;
+}
+
+.step > p {
+    text-align: center;
+}
